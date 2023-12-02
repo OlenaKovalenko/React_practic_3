@@ -6,7 +6,6 @@ import { useFetchCountries } from 'hooks';
 export const Home = () => {
 
   const { isLoading, error, countries } = useFetchCountries();
-
   
   return (
     <Section>
