@@ -21,7 +21,6 @@ export const useFetchCountries = () => {
         }
 
         fetchData();
-    
     }, [])
 
     return { isLoading, error, countries };

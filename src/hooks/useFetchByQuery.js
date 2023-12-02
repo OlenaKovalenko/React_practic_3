@@ -29,6 +29,7 @@ export const useFetchByQuery = () => {
 
     fetchData();
   }, [region]);
+  
   const onHandleSubmit = value => {
     setSearchParams({ q: value });
   };
